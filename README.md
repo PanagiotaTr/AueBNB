@@ -4,7 +4,7 @@ Welcome to the AueBNB project! AueBNB is a mobile application aimed at providing
 
 ## Info
 
-This project is developed as part of the subject "Distributed Systems" in the Athens University of Economics and Business (AUEB). The project is organized in two parts. The backend part contains the basic implementation of the app(Master,Worker,Reducer) and two dummy consoles for both the manager and the user. The fronted part // TO BE FILLED
+This project is developed as part of the subject "Distributed Systems" in the Athens University of Economics and Business (AUEB). The project is organized in two parts. The backend part contains the basic implementation of the app(Master,Worker,Reducer) and two dummy consoles for both the manager and the user. The frontend part contains an Android application that allows the customer to search for suitable accommodations based on their preferences and book their desired option. The app provides a user-friendly interface to interact with the backend system, ensuring a seamless experience in finding and reserving accommodations.
 
 ## Full Description
 
