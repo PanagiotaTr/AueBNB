@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity">
+
+    <ImageView
+        android:id="@+id/imageView_Book"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <TextView
+        android:id="@+id/textView_Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="16dp"
+        android:text="Book"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Book"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_Book"
+        android:layout_width="172dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/roomName_Book"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Name Of Room"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areaOwner_Book"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="114dp"
+        android:gravity="center"
+        android:text="Area Owner"
+        android:textColor="#7F1734"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/starsPrice_Book"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="158dp"
+        android:gravity="center"
+        android:text="Stars Price"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaxwrismos_Book"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <TextView
+        android:id="@+id/msg_Book"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="251dp"
+        android:text="Your reservation"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_Book"
+        android:layout_width="405dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="301dp"
+        android:ems="10"
+        android:hint="Fill your name"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/checkIn_Book"
+        android:layout_width="205dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="349dp"
+        android:cursorVisible="false"
+        android:drawableStart="@drawable/calendar"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Check in"
+        android:inputType="none"
+        android:longClickable="false"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/checkOut_Book"
+        android:layout_width="205dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="349dp"
+        android:cursorVisible="false"
+        android:drawableStart="@drawable/calendar"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Check out"
+        android:inputType="none"
+        android:longClickable="false"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/showNumberOfPersons_Book"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="420dp"
+        android:text="Number of Persons"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msgAdults_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="468dp"
+        android:gravity="center"
+        android:text="Adults"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msgChildren_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="523dp"
+        android:gravity="center"
+        android:text="Children"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/decrease_adults_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adults_Book"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="468dp"
+        android:layout_weight="1"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="none"
+        android:longClickable="false"
+        android:text="1"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/increase_adults_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/decrease_children_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="523dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/children_Book"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="523dp"
+        android:layout_weight="1"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:inputType="none"
+        android:longClickable="false"
+        android:text="0"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/increase_children_Book"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="523dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bookConfirmation_Book"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="592dp"
+        android:backgroundTint="#7F1734"
+        android:text="Booking Confirmation"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home_Book"
+        android:layout_width="41dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

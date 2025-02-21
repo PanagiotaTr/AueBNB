@@ -1,0 +1,2 @@
+reducerhost=localhost
+reducerport=5002

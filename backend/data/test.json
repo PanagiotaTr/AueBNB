@@ -1,0 +1,11 @@
+{
+    "roomName": "TestRoom",
+    "noOfPersons": 2,
+    "area": "Pedion Areos",
+    "stars": 1,
+    "noOfReviews": 50,
+    "roomImage": "/usr/bin/images/TestRoom.png",
+    "date": "01/01/2024 - 30/04/2024",
+    "price": 50,
+    "owner": "owner2"
+}

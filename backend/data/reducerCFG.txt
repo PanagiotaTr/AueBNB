@@ -1,0 +1,3 @@
+masterhost=localhost
+masterport=5000
+workers=3

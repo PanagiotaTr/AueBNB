@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_Dis"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <ImageView
+        android:id="@+id/image_Dis"
+        android:layout_width="410dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/roomName_Dis"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Name Of Room"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AreaNumberOfPersonsOwner_Dis"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:text="Area NumberOfPersons Owner"
+        android:textColor="#7F1734"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaxwrismos_Dis"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="535dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <RatingBar
+        android:id="@+id/ratingBarStars_Dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="475dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="#FFEB3B"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stars_Dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBarStars_Dis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="Number"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reviews_Dis"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="Reviews"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reviews_DisCom"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="485dp"
+        android:drawableStart="@drawable/comment"
+        android:ems="15"
+        android:gravity="center"
+        android:text="Comments"
+        android:textAllCaps="false"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaxwrismos1_Dis"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="435dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <TextView
+        android:id="@+id/bprice_Dis"
+        android:layout_width="121dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="538dp"
+        android:gravity="center"
+        android:text="BPrice"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aprice_Dis"
+        android:layout_width="121dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="538dp"
+        android:gravity="center"
+        android:text="APrice"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/deleteBPrice"
+        android:layout_width="121dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="565dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <Button
+        android:id="@+id/booking_Dis"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="596dp"
+        android:backgroundTint="#7F1734"
+        android:text="Book"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rating_Dis"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="596dp"
+        android:backgroundTint="#7F1734"
+        android:text="Rate"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/heart_Dis"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="5dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whiteheart" />
+
+    <ImageView
+        android:id="@+id/home_Dis"
+        android:layout_width="41dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

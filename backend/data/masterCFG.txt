@@ -1,0 +1,7 @@
+worker1port=5010
+worker2port=5011
+worker3port=5012
+workers=3
+worker1host=localhost
+worker2host=localhost
+worker3host=localhost

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingActivity">
+
+    <ImageView
+        android:id="@+id/imageView_Rate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <TextView
+        android:id="@+id/textView_Rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="16dp"
+        android:text="Rate"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Rate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_Rate"
+        android:layout_width="172dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/roomName_Rate"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Name Of Room"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areaOwner_Rate"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="114dp"
+        android:gravity="center"
+        android:text="Area Owner"
+        android:textColor="#7F1734"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/starsPrice_Rate"
+        android:layout_width="229dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="158dp"
+        android:gravity="center"
+        android:text="Stars Price"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaxwrismos_Rate"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <TextView
+        android:id="@+id/msg_Rate"
+        android:layout_width="136dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="248dp"
+        android:text="Your rating"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg1_Rate"
+        android:layout_width="136dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="396dp"
+        android:text="Comments"
+        android:textColor="#7F1734"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaxwrismos1_Rate"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="570dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bordo_banner" />
+
+    <EditText
+        android:id="@+id/comment_Rate"
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="432dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_Rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="300dp"
+        android:progressTint="#FFEB3B"
+        android:numStars="5"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rateConfirmation_Rate"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="592dp"
+        android:backgroundTint="#7F1734"
+        android:text="Rating Confirmation"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home_Rate"
+        android:layout_width="41dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:icon="@drawable/baseline_home_24"
+            android:id="@+id/navMenu"
+            android:title="Menu"/>
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:icon="@drawable/search"
+            android:id="@+id/navSearch"
+            android:title="Search"/>
+        <item
+            android:icon="@drawable/baseline_favorite_border_24"
+            android:id="@+id/navFavs"
+            android:title="Favourites"/>
+        <item
+            android:icon="@drawable/reservations"
+            android:id="@+id/navReser"
+            android:title="My Reservations"/>
+        <item
+            android:icon="@drawable/baseline_hotel_class_24"
+            android:id="@+id/navTop5"
+            android:title="Top 5 Rooms"/>
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:icon="@drawable/baseline_info_24"
+            android:id="@+id/navAboutUs"
+            android:title="About Us"/>
+        <item
+            android:icon="@drawable/baseline_no_accounts_24"
+            android:id="@+id/navLogOut"
+            android:title="Log Out"/>
+    </group>
+</menu>

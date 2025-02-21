@@ -1,0 +1,179 @@
+[
+    {
+      "roomName": "room2",
+      "noOfPersons": 4,
+      "area": "Glyfada",
+      "stars": 4.2,
+      "noOfReviews": 25,
+      "roomImage": "/usr/bin/images/room2.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 250,
+      "owner": "owner2"
+    },
+    {
+      "roomName": "room15",
+      "noOfPersons": 8,
+      "area": "Argyroupoly",
+      "stars": 4.7,
+      "noOfReviews": 47,
+      "roomImage": "/usr/bin/images/room15.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 320,
+      "owner": "owner5"
+    },
+    {
+      "roomName": "room18",
+      "noOfPersons": 5,
+      "area": "Neos Kosmos",
+      "stars": 4.6,
+      "noOfReviews": 45,
+      "roomImage": "/usr/bin/images/room18.png",
+      "date": "01/05/2024 - 30/06/2024",
+      "price": 310,
+      "owner": "owner8"
+    },
+    {
+      "roomName": "room33",
+      "noOfPersons": 6,
+      "area": "Omonoia",
+      "stars": 4.5,
+      "noOfReviews": 35,
+      "roomImage": "/usr/bin/images/room33.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 300,
+      "owner": "owner3"
+    },
+    {
+      "roomName": "room36",
+      "noOfPersons": 5,
+      "area": "Chalandri",
+      "stars": 4.3,
+      "noOfReviews": 32,
+      "roomImage": "/usr/bin/images/room36.png",
+      "date": "01/02/2024 - 30/06/2024",
+      "price": 280,
+      "owner": "owner6"
+    },
+    {
+      "roomName": "room21",
+      "noOfPersons": 5,
+      "area": "Kifissia",
+      "stars": 4.3,
+      "noOfReviews": 28,
+      "roomImage": "/usr/bin/images/room21.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 280,
+      "owner": "owner11"
+    },
+    {
+      "roomName": "room27",
+      "noOfPersons": 4,
+      "area": "Peristeri",
+      "stars": 4.3,
+      "noOfReviews": 29,
+      "roomImage": "/usr/bin/images/room27.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 280,
+      "owner": "owner7"
+    },
+    {
+      "roomName": "room42",
+      "noOfPersons": 4,
+      "area": "Vyronas",
+      "stars": 4.2,
+      "noOfReviews": 28,
+      "roomImage": "/usr/bin/images/room42.png",
+      "date": "01/02/2024 - 30/05/2024",
+      "price": 260,
+      "owner": "owner12"
+    },
+    {
+      "roomName": "room45",
+      "noOfPersons": 6,
+      "area": "Ilion",
+      "stars": 4.5,
+      "noOfReviews": 37,
+      "roomImage": "/usr/bin/images/room45.png",
+      "date": "01/01/2024 - 30/04/2024",
+      "price": 300,
+      "owner": "owner5"
+    },
+    {
+      "roomName": "room5",
+      "noOfPersons": 8,
+      "area": "Plaka",
+      "stars": 4.8,
+      "noOfReviews": 50,
+      "roomImage": "/usr/bin/images/room5.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 350,
+      "owner": "owner5"
+    },
+    {
+      "roomName": "room8",
+      "noOfPersons": 5,
+      "area": "Monastiraki",
+      "stars": 4.1,
+      "noOfReviews": 23,
+      "roomImage": "/usr/bin/images/room8.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 280,
+      "owner": "owner8"
+    },
+    {
+      "roomName": "room12",
+      "noOfPersons": 6,
+      "area": "Monastiraki",
+      "stars": 4.3,
+      "noOfReviews": 28,
+      "roomImage": "/usr/bin/images/room12.png",
+      "date": "01/02/2024 - 30/04/2024",
+      "price": 270,
+      "owner": "owner9"
+    },
+    {
+      "roomName": "room24",
+      "noOfPersons": 5,
+      "area": "Cholargos",
+      "stars": 4.1,
+      "noOfReviews": 25,
+      "roomImage": "/usr/bin/images/room24.png",
+      "date": "01/02/2024 - 30/06/2024",
+      "price": 260,
+      "owner": "owner4"
+    },
+    {
+      "roomName": "room30",
+      "noOfPersons": 4,
+      "area": "Kypseli",
+      "stars": 4.2,
+      "noOfReviews": 28,
+      "roomImage": "/usr/bin/images/room30.png",
+      "date": "01/03/2024 - 30/06/2024",
+      "price": 260,
+      "owner": "owner10"
+    },
+    {
+      "roomName": "room39",
+      "noOfPersons": 4,
+      "area": "Agios Dimitrios",
+      "stars": 4.2,
+      "noOfReviews": 27,
+      "roomImage": "/usr/bin/images/room39.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 270,
+      "owner": "owner9"
+    },
+    {
+      "roomName": "room48",
+      "noOfPersons": 5,
+      "area": "Nea Smirni",
+      "stars": 4.3,
+      "noOfReviews": 32,
+      "roomImage": "/usr/bin/images/room48.png",
+      "date": "01/02/2024 - 30/06/2024",
+      "price": 280,
+      "owner": "owner8"
+    }
+  ]
+  

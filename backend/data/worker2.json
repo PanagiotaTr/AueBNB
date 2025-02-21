@@ -1,0 +1,190 @@
+[
+    {
+      "roomName": "room6",
+      "noOfPersons": 4,
+      "area": "Omonoia",
+      "stars": 4.3,
+      "noOfReviews": 28,
+      "roomImage": "/usr/bin/images/room6.png",
+      "date": "01/04/2024 - 30/06/2024",
+      "price": 270,
+      "owner": "owner6"
+    },
+    {
+      "roomName": "room20",
+      "noOfPersons": 7,
+      "area": "Agia Paraskevi",
+      "stars": 4.8,
+      "noOfReviews": 50,
+      "roomImage": "/usr/bin/images/room20.png",
+      "date": "01/02/2024 - 30/06/2024",
+      "price": 330,
+      "owner": "owner10"
+    },
+    {
+      "roomName": "room23",
+      "noOfPersons": 6,
+      "area": "Agia Paraskevi",
+      "stars": 4.4,
+      "noOfReviews": 37,
+      "roomImage": "/usr/bin/images/room23.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 290,
+      "owner": "owner1"
+    },
+    {
+      "roomName": "room41",
+      "noOfPersons": 5,
+      "area": "Peireas",
+      "stars": 4.4,
+      "noOfReviews": 33,
+      "roomImage": "/usr/bin/images/room41.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 290,
+      "owner": "owner11"
+    },
+    {
+      "roomName": "room44",
+      "noOfPersons": 5,
+      "area": "Nea Ionia",
+      "stars": 4.3,
+      "noOfReviews": 30,
+      "roomImage": "/usr/bin/images/room44.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 280,
+      "owner": "owner4"
+    },
+    {
+      "roomName": "room47",
+      "noOfPersons": 6,
+      "area": "Marousi",
+      "stars": 4.4,
+      "noOfReviews": 35,
+      "roomImage": "/usr/bin/images/room47.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 300,
+      "owner": "owner7"
+    },
+    {
+      "roomName": "room50",
+      "noOfPersons": 8,
+      "area": "Kaisariani",
+      "stars": 4.7,
+      "noOfReviews": 45,
+      "roomImage": "/usr/bin/images/room50.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 320,
+      "owner": "owner10"
+    },
+    {
+      "roomName": "room3",
+      "noOfPersons": 6,
+      "area": "Kifisia",
+      "stars": 4.5,
+      "noOfReviews": 40,
+      "roomImage": "/usr/bin/images/room3.png",
+      "date": "01/03/2024 - 30/06/2024",
+      "price": 300,
+      "owner": "owner3"
+    },
+    {
+      "roomName": "room9",
+      "noOfPersons": 4,
+      "area": "Nea Smyrni",
+      "stars": 4.2,
+      "noOfReviews": 27,
+      "roomImage": "/usr/bin/images/room9.png",
+      "date": "01/03/2024 - 30/06/2024",
+      "price": 260,
+      "owner": "owner9"
+    },
+    {
+      "roomName": "room14",
+      "noOfPersons": 4,
+      "area": "Neos Kosmos",
+      "stars": 4.2,
+      "noOfReviews": 27,
+      "roomImage": "/usr/bin/images/room14.png",
+      "date": "01/04/2024 - 30/05/2024",
+      "price": 260,
+      "owner": "owner4"
+    },
+    {
+      "roomName": "room17",
+      "noOfPersons": 6,
+      "area": "Kifisia",
+      "stars": 4.5,
+      "noOfReviews": 40,
+      "roomImage": "/usr/bin/images/room17.png",
+      "date": "01/03/2024 - 30/04/2024",
+      "price": 300,
+      "owner": "owner7"
+    },
+    {
+      "roomName": "room26",
+      "noOfPersons": 8,
+      "area": "Argyroupoly",
+      "stars": 4.7,
+      "noOfReviews": 42,
+      "roomImage": "/usr/bin/images/room26.png",
+      "date": "01/04/2024 - 30/06/2024",
+      "price": 320,
+      "owner": "owner2"
+    },
+    {
+      "roomName": "room29",
+      "noOfPersons": 5,
+      "area": "Pangrati",
+      "stars": 4.4,
+      "noOfReviews": 33,
+      "roomImage": "/usr/bin/images/room29.png",
+      "date": "01/03/2024 - 30/05/2024",
+      "price": 290,
+      "owner": "owner9"
+    },
+    {
+      "roomName": "room38",
+      "noOfPersons": 8,
+      "area": "Penteli",
+      "stars": 4.7,
+      "noOfReviews": 43,
+      "roomImage": "/usr/bin/images/room38.png",
+      "date": "01/04/2024 - 30/06/2024",
+      "price": 330,
+      "owner": "owner8"
+    },
+    {
+      "roomName": "room11",
+      "noOfPersons": 3,
+      "area": "Kolonaki",
+      "stars": 4.0,
+      "noOfReviews": 20,
+      "roomImage": "/usr/bin/images/room11.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 220,
+      "owner": "owner3"
+    },
+    {
+      "roomName": "room32",
+      "noOfPersons": 5,
+      "area": "Ampelokipoi",
+      "stars": 4.3,
+      "noOfReviews": 30,
+      "roomImage": "/usr/bin/images/room32.png",
+      "date": "01/01/2024 - 30/03/2024",
+      "price": 280,
+      "owner": "owner12"
+    },
+    {
+      "roomName": "room35",
+      "noOfPersons": 6,
+      "area": "Alimos",
+      "stars": 4.4,
+      "noOfReviews": 38,
+      "roomImage": "/usr/bin/images/room35.png",
+      "date": "01/01/2024 - 30/06/2024",
+      "price": 300,
+      "owner": "owner5"
+    }
+  ]
+  

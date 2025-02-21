@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AueBNB</string>
+    <string name="welcome_message">Καλώς ήρθατε στην εφαρμογή μας aueBNB!</string>
+    <string name="menu_prompt">Menu</string>
+    <string-array name="spinner_options">
+        <item>None</item>
+        <item>By Price</item>
+        <item>By Stars</item>
+    </string-array>
+    <string-array name="second_spinner_options">
+        <item>Low to high</item>
+        <item>High to low</item>
+    </string-array>
+</resources>
