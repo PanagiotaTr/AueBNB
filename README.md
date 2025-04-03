@@ -58,17 +58,19 @@ Finally the manager mode must be able to display the total reservations of each 
 
 ### Phase 2 - Compile
 1. Locate the backend folder and open the cmd in that folder
-2. Compile the java files using:
+2. Compile the java files using:  
+
     ```sh
     javac app/src/*.java
     ```
 ### Phase 3 - Configuration
 1. Locate the folder backend/data
-2. Find and open the following files:
+2. Find and open the following files:  
+
     - masterCFG.txt
     - reducerCFG.txt
-    - workerCFG.txt
-
+    - workerCFG.txt  
+         
     > **Note:** The backend can be run in two modes:
     > - **Single-computer Mode** All modules (Master, Reducer, Worker) run on the same computer. In this you must use `localhost` in each host.
     > - **Distributed Mode:** The application can be run across multiple computers, where each module (Master, Reducer, Worker) runs on a different machine. In this case, you need to configure the IP addresses of each machine in the respective configuration files.
@@ -107,10 +109,11 @@ Finally the manager mode must be able to display the total reservations of each 
 3. Initialize the Workers data from the ManagerConsoleApp command prompt (Select 1 and press enter)
 
 4. Interact with the app as a Manager: 
-     Use the command prompt of the ManagerConsoleApp to interact with the app as the manager.  
+     Use the command prompt of the ManagerConsoleApp to interact with the app as the manager.   
+
     Select the desired option using the corresponding number: 
 
-        1. Initiallize workers data **(Only use it at the start of the app)** 
+        1. Initiallize workers data (Only use it at the start of the app)
         2. Show your accommodation bookings  
         3. Show reservations for a specific period of time  
         4. Exit
@@ -146,3 +149,4 @@ Finally the manager mode must be able to display the total reservations of each 
 
 > **Note:** You might need to disable your firewall in order to run the app.
 
+![AueBNB logo](frontend/app/src/main/res/drawable/auebnb_banner.png)
