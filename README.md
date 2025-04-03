@@ -73,71 +73,76 @@ Finally the manager mode must be able to display the total reservations of each 
     > - **Single-computer Mode** All modules (Master, Reducer, Worker) run on the same computer. In this you must use `localhost` in each host.
     > - **Distributed Mode:** The application can be run across multiple computers, where each module (Master, Reducer, Worker) runs on a different machine. In this case, you need to configure the IP addresses of each machine in the respective configuration files.
 
-3. >**(Single-computer Mode)**: Use localhost as the host in each host field
+3. **(Single-computer Mode)**: Use localhost as the host in each host field
 
-    >**(Distributed Mode)**: Change the host field of each module based on your setup. **Example:** If the Master is hosted on a machine with IP ip1, locate the masterhost in each cfg file and change it to ip1 (if the masterhost field exists in the file). Do the same for Worker1, Worker2, Worker3 and the Reducer  
+    **(Distributed Mode)**: Change the host field of each module based on your setup. **Example:** If the Master is hosted on a machine with IP ip1, locate the masterhost in each cfg file and change it to ip1 (if the masterhost field exists in the file). Do the same for Worker1, Worker2, Worker3 and the Reducer  
 
 
 
 ### Phase 4 - Execution
 > **Note:** You can run the user app by using the user console app or by using the phone app. The instructions will include the console app method but it will mentioned as optional if you use the android app
 
-1. Locate backend folder and open 8 command prompts (or 7 if you use the android app)
-    > Workers - 3 command prompts, 1 for each WorkerServer  
-    > Reducer - 1 command prompt for the ReducerServer  
-    > Master - 1 command prompt for the MasterServer  
-    > Manager Console - 1 command prompt for the Manager Console  
-    > Account Server - 1 command prompt for the Account Server  
-    > User Console - 1 command prompt for the User Console (Optional if you use the android app)
+1. Locate backend folder and open 8 command prompts (or 7 if you use the android app)  
 
-2. Run each module on the corresponding command prompt using the following commands:
-    ```
-    Worker1 - java app/src/ServerWorker 5010  
-    Worker2 - java app/src/ServerWorker 5011  
-    Worker3 - java app/src/ServerWorker 5012  
-    Reducer - java app/src/ReducerServer 
-    Master - java app/src/MasterServer 
-    Account Server - java app/src/AccountServer  
-    Manager Console - java app/src/ManagerConsoleApp  
-    User Console - java app/src/UserConsoleApp (Optional if you use the android app)
-    ```
+     Workers - 3 command prompts, 1 for each WorkerServer  
+     Reducer - 1 command prompt for the ReducerServer  
+     Master - 1 command prompt for the MasterServer  
+     Manager Console - 1 command prompt for the Manager Console  
+     Account Server - 1 command prompt for the Account Server  
+     User Console - 1 command prompt for the User Console (Optional if you use the android app)  
+
+
+2. Run each module on the corresponding command prompt using the following commands:  
+
+    Worker1 - ```java app/src/ServerWorker 5010```  
+    Worker2 - ```java app/src/ServerWorker 5011```  
+    Worker3 - ```java app/src/ServerWorker 5012```  
+    Reducer - ```java app/src/ReducerServer```  
+    Master - ```java app/src/MasterServer```  
+    Account Server - ```java app/src/AccountServer```  
+    Manager Console - ```java app/src/ManagerConsoleApp```  
+    User Console - ```java app/src/UserConsoleApp```  (Optional if you use the android app) 
+
 
 3. Initialize the Workers data from the ManagerConsoleApp command prompt (Select 1 and press enter)
 
 4. Interact with the app as a Manager: 
-    > Use the command prompt of the ManagerConsoleApp to interact with the app as the manager.  
-    Select the desired option using the corresponding number:    
-    >    1. Initiallize workers data **(Only use it at the start of the app)** 
-    >    2. Show your accommodation bookings  
-    >    3. Show reservations for a specific period of time  
-    >    4. Exit
+     Use the command prompt of the ManagerConsoleApp to interact with the app as the manager.  
+    Select the desired option using the corresponding number: 
+
+        1. Initiallize workers data **(Only use it at the start of the app)** 
+        2. Show your accommodation bookings  
+        3. Show reservations for a specific period of time  
+        4. Exit
 
 5. Interact with the app as a User: 
-    >  **Using the UserConsoleApp:** Use the command prompt of the UserConsoleApp to interact with the app.  
-    Select the desired option using the corresponding number:  
-    >    1. Initiallize workers data  
-    >    2. Show your accommodation bookings  
-    >    3. Show reservations for a specific period of time  
-    >    4. Exit  
-    >
-    >  **Using the Android App:** Open the project in the Android Studio. Locate the frontend folder and access the java files inside app/src/main/java/com/example/auebnb. Locate the following java files:  
-    >   1. BookThread.java
-    >   2. RatingThread.java
-    >   3. RoomDisplayThread.java
-    >   4. SearchThread.java
-    >   5. LoginThread.java
-    >   6. RegisterThread.java  
-    >
-    >For files 1-4 locate the following command and change the ip to the ip of the machine that hosts the MasterServer:
-    >  ```
-    >  requestSocket = new Socket("192.168.1.6", 5000);
-    >  ```
-    > For files 5 and 6 locate the following command and change the ip to the ip of the machine that hosts the AccountServer:
-    >  ```
-    >  requestSocket = new Socket("192.168.1.6", 5003);
-    >  ```
-    >
-    > Finally connect your phone to your computer and install the app through the Android Studio. Your phone is needed because the Android Emulator can't connect to the wifi. In order to connect your phone to the Android Studio you need to enable the debugging mode through the developer options.
+      **Using the UserConsoleApp:** Use the command prompt of the UserConsoleApp to interact with the app.  
+    Select the desired option using the corresponding number: 
+       
+        1. Initiallize workers data   
+        2. Show your accommodation bookings  
+        3. Show reservations for a specific period of time  
+        4. Exit  
+    
+      **Using the Android App:** Open the project in the Android Studio. Locate the frontend folder and access the java files inside app/src/main/java/com/example/auebnb. Locate the following java files:  
+
+       1. BookThread.java  
+       2. RatingThread.java  
+       3. RoomDisplayThread.java  
+       4. SearchThread.java  
+       5. LoginThread.java  
+       6. RegisterThread.java    
+    
+    For files 1-4 locate the following command and change the ip to the ip of the machine that hosts the MasterServer:
+      ```
+      requestSocket = new Socket("192.168.1.6", 5000);
+      ```
+     For files 5 and 6 locate the following command and change the ip to the ip of the machine that hosts the AccountServer:
+      ```
+      requestSocket = new Socket("192.168.1.6", 5003);
+      ```
+    
+     Finally connect your phone to your computer and install the app through the Android Studio. Your phone is needed because the Android Emulator can't connect to the wifi. In order to connect your phone to the Android Studio you need to enable the debugging mode through the developer options.
 
 > **Note:** You might need to disable your firewall in order to run the app.
 
