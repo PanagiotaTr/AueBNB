@@ -70,11 +70,11 @@ Finally the manager mode must be able to display the total reservations of each 
 
     - masterCFG.txt
     - reducerCFG.txt
-    - workerCFG.txt  
-         
-    > **Note:** The backend can be run in two modes:
-    > - **Single-computer Mode** All modules (Master, Reducer, Worker) run on the same computer. In this you must use `localhost` in each host.
-    > - **Distributed Mode:** The application can be run across multiple computers, where each module (Master, Reducer, Worker) runs on a different machine. In this case, you need to configure the IP addresses of each machine in the respective configuration files.
+    - workerCFG.txt
+
+>  **Note:** The backend can be run in two modes:
+> - **Single-computer Mode:** All modules (Master, Reducer, Worker) run on the same computer. In this case, you must use `localhost` in each host.
+> - **Distributed Mode:** The application can be run across multiple computers, where each module (Master, Reducer, Worker) runs on a different machine. In this case, you need to configure the IP addresses of each machine in the respective configuration files.
 
 3. **(Single-computer Mode)**: Use localhost as the host in each host field
 
