@@ -1,7 +1,7 @@
 # AueBNB
-
+  
 Welcome to the AueBNB project! AueBNB is a mobile application aimed at providing a convenient platform for finding and booking accommodations.  
-The original repository in gitlab can be found [here](https://gitlab.com/distributedsystems7794216/auebnb).
+The original repository in gitlab can be found [here](https://gitlab.com/distributedsystems7794216/auebnb). 
 
 ## Info
 
